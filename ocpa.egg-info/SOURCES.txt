@@ -56,4 +56,8 @@ ocpa/visualization/oc_petri_net/util/__init__.py
 ocpa/visualization/oc_petri_net/util/util.py
 ocpa/visualization/oc_petri_net/versions/__init__.py
 ocpa/visualization/oc_petri_net/versions/annotated_with_diagnostics.py
+<<<<<<< HEAD
 ocpa/visualization/oc_petri_net/versions/control_flow.py
+=======
+ocpa/visualization/oc_petri_net/versions/control_flow.py
+>>>>>>> Publishing

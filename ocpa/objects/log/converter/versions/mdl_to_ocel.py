@@ -1,13 +1,9 @@
 from typing import Dict, List, Any
 import pandas as pd
 from pandas import to_datetime
-from datetime import datetime
 import itertools
 
-from ocpa.objects.log.importer.ocel.parameters import JsonParseParameters
 from ocpa.objects.log.obj import Event, Obj, ObjectCentricEventLog, MetaObjectCentricData, RawObjectCentricData
-
-import math
 
 
 def add_event(events: Dict[str, Event], index, row, cfg) -> None:
