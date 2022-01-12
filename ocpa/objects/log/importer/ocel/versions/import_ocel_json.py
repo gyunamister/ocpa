@@ -142,16 +142,8 @@ def parse_events(data: Dict[str, Any], cfg: JsonParseParameters) -> Dict[str, Ev
         if "start_time" not in item[1][vmap_name]:
             events[item[0]].vmap["start_time"] = None
         else:
-<<<<<<< HEAD
-            events[item[0]].vmap["start_time"] = datetime.fromisoformat(events[item[0]].vmap["start_time"])
-=======
-<<<<<<< HEAD
-            events[item[0]].vmap["start_time"] = datetime.fromisoformat(events[item[0]].vmap["start_time"])
-=======
             events[item[0]].vmap["start_time"] = datetime.fromisoformat(
                 events[item[0]].vmap["start_time"])
->>>>>>> ocpn-functions
->>>>>>> Publishing
     sorted_events = sorted(events.items(), key=lambda kv: kv[1].time)
     return OrderedDict(sorted_events)
 
