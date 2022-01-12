@@ -3,6 +3,7 @@ import pandas as pd
 from pandas import to_datetime
 import itertools
 
+from ocpa.objects.log.util.param import JsonParseParameters
 from ocpa.objects.log.obj import Event, Obj, ObjectCentricEventLog, MetaObjectCentricData, RawObjectCentricData
 
 
