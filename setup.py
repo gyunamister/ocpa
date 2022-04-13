@@ -3,21 +3,23 @@ import setuptools
 
 import ocpa
 setuptools.setup(
-    name = ocpa.__name__,
+    name=ocpa.__name__,
     packages=setuptools.find_packages(),
     py_modules=[ocpa.__name__],
     include_package_data=True,
-    version = ocpa.__version__,      
-    license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-    description = ocpa.__doc__.strip(),   
+    version=ocpa.__version__,
+    # Chose a license from here: https://help.github.com/articles/licensing-a-repository
+    license='MIT',
+    description=ocpa.__doc__.strip(),
     author=ocpa.__author__,
     author_email=ocpa.__author_email__,
-    url = 'https://github.com/gyunamister/ocpa',   # Provide either the link to your github or to your website
+    # Provide either the link to your github or to your website
+    url='https://github.com/gyunamister/ocpa',
     install_requires=[            # I get to this in a second
             "pm4py>=2.2.0",
             "setuptools",
             "jsonschema",
-        ],
+    ],
     # classifiers=[
     # 'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     # 'Intended Audience :: Developers',      # Define that your audience are developers

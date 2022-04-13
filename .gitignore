@@ -60,12 +60,13 @@ venv.bak/
 /lib
 
 # Examples
-/example_logs/*
-/examples/*
-/ocpa_tester-private.py
-/test.py
-/BPI2017.csv
-/tests/*
+/example_logs
+/examples
+/tests
 
 /build
 /dist
+
+/ocpa_tester-private.py
+/test.py
+/BPI2017.csv

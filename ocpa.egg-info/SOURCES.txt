@@ -60,4 +60,8 @@ ocpa/visualization/oc_petri_net/versions/annotated_with_diagnostics.py
 ocpa/visualization/oc_petri_net/versions/control_flow.py
 =======
 ocpa/visualization/oc_petri_net/versions/control_flow.py
+<<<<<<< HEAD
 >>>>>>> Publishing
+=======
+>>>>>>> public/master
+>>>>>>> ocpa-core/master
