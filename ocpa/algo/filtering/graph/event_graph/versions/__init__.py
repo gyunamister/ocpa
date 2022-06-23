@@ -1,1 +1,3 @@
-from ocpa.algo.filtering.graph.event_graph.versions import filter_complete, filter_object_types, filter_subprocess
+import ocpa.algo.filtering.graph.event_graph.versions.filter_complete
+import ocpa.algo.filtering.graph.event_graph.versions.filter_object_types
+import ocpa.algo.filtering.graph.event_graph.versions.filter_subprocess
